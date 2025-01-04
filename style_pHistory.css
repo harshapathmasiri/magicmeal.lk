@@ -1,0 +1,84 @@
+/* CSS Document */
+.container{
+  width: 70%;
+  margin: 110px auto 0px auto;
+  padding: 20px 0 150px 0;
+  background-color:rgba(255, 255, 255, 0.9);
+}
+
+.pHistoryTitle{
+  text-align: left;
+	color:#666;
+	font-size:30px;
+	margin:auto;
+	text-transform:uppercase;
+	padding:30px 0 60px 0;
+  letter-spacing: 1px;
+  background-color: #FFF;
+}
+
+.tblPHistory{
+  width: 70%;
+  padding: 10px 50px 0 0;
+  background-color:rgba(238, 238, 238, 0.2);
+  margin-bottom:50px;
+  box-shadow: 2px 5px 5px #EEE;
+}
+
+.tblPHistory, .tblPHistory tr, .tblPHistory td{
+  border-collapse: collapse;
+  padding: 0;
+  vertical-align:middle;
+}
+
+.tblPHistory tr:nth-child(odd){
+	background-color:#FFF;
+}
+
+.container .inputs{
+  color: #666;
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  margin: 0;
+  width: 100%;
+  font-size: 13px;
+}
+
+.container .inputs:focus{
+  border: solid 1px #EAC632;
+}
+
+.pHisDetails{
+  font-size: 13px;
+  margin:0;
+  padding:5px;
+  color:#666;
+}
+
+.pHisLabel{
+  font-size: 13px;
+  margin:0;
+  padding:5px 5px;
+  color:#666;
+}
+
+.Delivered{
+
+}
+
+#btnDeletePHis{
+  display: block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: red;
+  background-color: #FFF;
+  border: none;
+  padding: 5px 12px;
+}
+
+#btnDeletePHis:hover{
+  cursor: pointer;
+  background-color: #FFF;
+  color: #222;
+}

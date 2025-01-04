@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/*headerimg*/
+
+.cover{
+	background-image:url(../images/backgrounds/6_1.jpg);
+	background-repeat:no-repeat;
+  background-attachment: fixed;
+	background-position:center;
+	background-size:cover;
+	height:100%;
+}
+
+.coverOverlay{
+	padding:0;
+	text-align:center;
+	height:100%;
+	width:100%;
+	background-color:rgba(0,0,0,0.5);
+	padding:5% 10% 10% 10%;
+}
+
+.coverOverlay h1{
+	margin-top:100px;
+	padding:0;
+	color:#EEE;
+	font-size:50px;
+	text-transform:uppercase;
+	letter-spacing: 3px;
+}
+
+.downArrow{
+	margin-top:50px;
+	-webkit-animation-name: downArrowBreathing;
+  -webkit-animation-duration: 1s;
+  animation-name: downArrowBreathing;
+  animation-duration: 1s;
+	animation-timing-function:ease-in-out;
+}
+
+.downArrow img{
+	cursor:pointer;
+}
+/*endheaderimg*/
+
+
+
+
+
+
+
+
+
+/*content*/
+
+.content{
+	background-color:rgba(238, 238, 238, 0.5);
+	height:auto;
+}
+
+.aboutContainer{
+	width:70%;
+	margin:auto;
+	padding-bottom:100px;
+
+}
+
+.aboutTitle{
+	text-align:left;
+	padding:50px 0 0 0;
+
+}
+
+.map{
+	height:400px;
+	width:600px;
+}
+
+.aboutDescription{
+	font-size:18px;
+	color:#888;
+	padding:0 100px 0 0;
+	line-height:1.9;
+}
+
+.tblAbout, .tblAbout tr, .tblAbout td{
+	border-collapse:collapse;
+	margin:0;
+	padding:0;
+}
+
+.tblAbout{
+	width:100%;
+}
+
+
+/*endcontent*/
+
+
+
+
+
+
+
+
+
+
+/*content1*/
+
+.content1{
+	padding:50px;
+	background-color:rgba(255, 255, 255, 0.9);
+	width:70%;
+	margin:auto;
+}
+
+.servTitle, .aboutTitle{
+	color:#666;
+	font-size:40px;
+	margin:0;
+	text-transform:uppercase;
+}
+
+.servTitle{
+	padding:50px 0 50px 0;
+	text-align:center;
+}
+
+.sCard{
+	background-color: #EEE;
+	height:450px;
+	width:300px;
+	margin:20px;
+	overflow:hidden;
+	z-index:97;
+	position:relative;
+}
+
+.gCard{
+	background-color: #EEE;
+	height:200px;
+	width:300px;
+	margin:20px;
+	overflow:hidden;
+	z-index:97;
+	position:relative;
+}
+
+.gCard:hover{
+}
+
+.gCard:hover .servCardOverlay{
+	display:block;
+}
+
+.servCardTitle{
+	padding:10px 20px 10px 30px;
+	font-size:18px;
+	text-transform:uppercase;
+	color:#555;
+	background-color:#EAC632;
+	margin:0;
+	height:70px;
+}
+
+.servCardDesc{
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+.servCardDesc p{
+	padding:25px 30px 0 30px;
+	font-size:15px;
+	color:#666;
+	margin:0;
+	line-height:1.5;
+}
+
+.sCard:hover{
+}
+
+.servCardOverlay{
+	position:absolute;
+	z-index:100;
+	height:100%;
+	width:100%;
+	background-color:rgba(255, 255, 255, 0.8);
+	text-align:center;
+	display:none;
+
+	-webkit-animation-name: servCardOverlay;
+    -webkit-animation-duration: 0.3s;
+    animation-name: servCardOverlay;
+    animation-duration: 0.3s;
+	animation-timing-function:ease-in-out;
+}
+
+.servCardOverlayBtnView{
+	position:relative;
+	top:50%;
+	text-decoration:none;
+	color:#FFF/*EAC632*/;
+	text-transform:uppercase;
+	background-color:#1CA094;
+	padding:15px;
+	-webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.servCardOverlayBtnView:hover{
+	color:#FFF;
+	background-color:#292734;
+}
+
+.sCard:hover .servCardOverlay{
+	display:block;
+}
+
+/*endcontent1*/
+
+
+
+
+
+@media only screen and (max-width: 550px) {
+	.coverOverlay h1{
+		font-size:20px;
+		margin-top:100px;
+	}
+
+}

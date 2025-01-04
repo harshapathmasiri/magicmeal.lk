@@ -1,0 +1,74 @@
+/* CSS Document */
+.container{
+  width: 70%;
+  margin: 110px auto 0px auto;
+  padding: 50px 0 150px 0;
+  background-color:rgba(255, 255, 255, 0.9);
+}
+
+.profileTitle{
+  text-align: center;
+	color:#EAC632;
+	font-size:30px;
+	margin:auto;
+	text-transform:uppercase;
+	padding:30px 0 30px 0;
+  letter-spacing: 1px;
+  background-color: #38516A;
+  width: 60%;
+  border: solid 1px #EEE;
+}
+
+.tblProfile{
+  width: 60%;
+  padding: 60px 50px;
+  background-color:rgba(238, 238, 238, 0.2);
+  border: solid 1px #EEE;
+  border-bottom:none;
+}
+
+.tblProfile tr, .tblProfile td{
+  border-collapse: collapse;
+  padding: 0;
+}
+
+.profileSecTitle{
+  font-weight: bold;
+  color: #666;
+  border-bottom: solid 1px #DDD;
+  padding: 10px 10px 30px 0px;
+}
+
+.container .inputs{
+  color: #222;
+  background-color: #FFF;
+  border: solid 1px #222;
+  padding: 7px;
+  margin: 10px 0;
+  width: 100%;
+  font-size: 15px;
+}
+
+.container .inputs:focus{
+  border: solid 1px #EAC632;
+}
+
+.container label{
+  color: #666;
+  font-size: 15px;
+}
+
+#btnChangePassword, #btnEditDetails, #btnSavePayDetails{
+  color: #222;
+  background-color: #EAC632;
+  border: solid 1px #222;
+  padding: 10px 30px;
+  margin: 20px 0;
+}
+
+#btnChangePassword:hover, #btnEditDetails:hover, #btnSavePayDetails:hover{
+  cursor: pointer;
+  background-color: #FFF;
+  color: #666;
+  border: solid 1px #EAC632;
+}

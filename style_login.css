@@ -1,0 +1,66 @@
+/* CSS Document */
+.container{
+  width: 70%;
+  margin: 110px auto 0px auto;
+  padding: 100px 0 150px 0;
+  background-color:rgba(255, 255, 255, 0.9);
+}
+
+.loginTitle{
+  text-align: center;
+	color:#EAC632;
+	font-size:30px;
+	margin:auto;
+	text-transform:uppercase;
+	padding:30px 0 30px 0;
+  letter-spacing: 1px;
+  background-color: #38516A;
+  width: 50%;
+  border: solid 1px #EEE;
+	border-bottom:none;
+}
+
+.tblLoginForm{
+  width: 50%;
+  padding: 60px 50px;
+  background-color:rgba(238, 238, 238, 0.2);
+  border: solid 1px #EEE;
+}
+
+.tblLoginForm tr, .tblLoginForm td{
+  border-collapse: collapse;
+  padding: 0;
+}
+
+.container .inputs{
+  color: #222;
+  background-color: #FFF;
+  border: solid 1px #222;
+  padding: 7px;
+  margin: 10px 0;
+  width: 100%;
+  font-size: 15px;
+}
+
+.container .inputs:focus{
+  border: solid 1px #EAC632;
+}
+
+.container label{
+  color: #666;
+}
+
+#btnLogin{
+  color: #222;
+  background-color: #EAC632;
+  border: solid 1px #222;
+  padding: 10px 30px;
+  margin: 20px 0;
+}
+
+#btnLogin:hover{
+  cursor: pointer;
+  background-color: #FFF;
+  color: #666;
+  border: solid 1px #EAC632;
+}

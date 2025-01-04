@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+hr{
+  display: block;
+  margin: 20px 30px 0 0;
+  border-style: inset;
+  border-width: 1px;
+	color:#222;
+	opacity:0.2;
+}
+
+.hidden{
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.container{
+  width: 70%;
+  margin: 30px auto 0px auto;
+  padding: 100px 0 150px 0;
+  background-color:rgba(255, 255, 255, 0.9);
+}
+
+p.sCartAdded{
+	color:#666;
+}
+
+th{
+	color:#555;
+  background-color: #C0C0C0;
+  text-align: left;
+}
+
+.sCartHead{
+}
+
+.sCartInput{
+	color:#666;
+}
+
+.myCartTitle{
+  text-align: left;
+	color:#666;
+	font-size:30px;
+	margin:auto;
+	text-transform:uppercase;
+	padding:30px 0 30px 0;
+  letter-spacing: 1px;
+  background-color: #FFF;
+}
+
+.tblShoppingCart{
+	width:100%;
+  padding: 10px 0px;
+  background-color:rgba(238, 238, 238, 0.4);
+  border-collapse: collapse;
+}
+
+.tblShoppingCart tr, .tblShoppingCart td, .tblShoppingCart th{
+  border-collapse: collapse;
+  padding: 0;
+  padding-left: 10px;
+
+}
+
+.tblShoppingCart tr:nth-child(even){
+	background-color:#FFF;
+}
+
+.ClassTxtOrderQty{
+  width: 50%;
+  text-align: center;
+  padding: 5px;
+  margin-right: 40px
+}
+
+.updateNotice{
+  color: orange;
+  display: none;
+  float: right;
+  font-size: 13px;
+  margin: 40px 50px;
+}
+
+#btnCartClearAll{
+  background-color: inherit;
+  border: none;
+  display: block;
+  color: red;
+  font-size: 15px;
+  padding-left: 0;
+  letter-spacing: 1px;
+}
+
+#btnCartClearAll:hover{
+  color: #555;
+  cursor: pointer;
+}
+#btnSCartUpdate{
+	float:right;
+  background-color: #EEE;
+  color: #222;
+  padding: 20px 25px;
+  margin:20px 20px 0 0;
+  font-size: 14px;
+  border: solid 1px #222;
+  letter-spacing: 1px;
+}
+
+#btnSCartUpdate:hover{
+  background-color: #FFF;
+  cursor: pointer;
+}
+
+#btnSCartDNow{
+	float:right;
+  background-color: #292734;
+  color: #FFF;
+  padding: 20px 25px;
+  margin:20px 20px 0 0;
+  font-size: 14px;
+  border: solid 1px #222;
+  letter-spacing: 1px;
+}
+
+#btnSCartDNow:hover{
+  background-color: #43414E;
+  cursor: pointer;
+}
+
+img:hover{
+	cursor:pointer;
+}

@@ -1,0 +1,145 @@
+/* CSS Document */
+
+.calendar ul{
+  list-style-type: none;
+}
+
+.calendar{
+  width: 70%;
+  position: relative;
+  z-index: 91;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.calendar tr, .calendar td, .calendar table{
+  border-collapse: collapse;
+  padding: 0;
+}
+
+.month {
+    width: 100%;
+    background: #FEBC2B;
+    text-align: center;
+    overflow: hidden;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.month .next {
+    float: right;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.month .prev:hover, .month .next:hover {
+  background-color: #EEE;
+  color: #F13B37;
+  cursor: pointer;
+}
+
+
+.tblWeekdays{
+  width: 100%;
+  text-align: center;
+}
+
+.tblWeekdays td{
+  width: 14.28%;
+}
+.weekdays {
+    margin: 0;
+    padding: 5px 5px;
+    background-color: #EEE;
+    width: 100%;
+}
+
+.weekdays li {
+    color: #666;
+    text-align: center;
+    list-style-type: none;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.tblDays{
+  width: 100%;
+  text-align: center;
+}
+
+.tblDays td{
+  width: 14.28%;
+}
+
+.days {
+    padding: 10px 5px 10px 5px;
+    background: #FFF;
+    margin: 0;
+    border: solid 1px #EEE;
+}
+
+.days li {
+    padding: 10px 3px 10px 3px;
+    list-style-type: none;
+    font-size:12px;
+    color: #777;
+    border: solid 1px #FFF;
+}
+
+.days li.active {
+    border-color: green !important;
+    color: green !important;
+}
+
+.days li.clicked {
+  color: #F13B37 !important;
+  border-color: #EEE !important;
+}
+
+.days li.restrict {
+  border-color: #F13B37 !important;
+  color: #F13B37 !important;*/
+  cursor: default !important;
+}
+
+
+.days li.active:hover{
+  color: #F13B37 !important;
+}
+
+.days li:hover{
+  color: #F13B37;
+  cursor: pointer;
+}
+
+#btnClearCal{
+  width: 100%;
+  border: none;
+  color: #EEE;
+  background-color: #222;
+  padding: 5px;
+}
+
+#btnClearCal:hover{
+  background-color: #333;
+}
