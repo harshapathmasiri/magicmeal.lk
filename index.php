@@ -12,8 +12,8 @@ if (isset($_SESSION["clientLogin"])) {
 }
 ?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://harshapathmasiri.github.io/magicmeal.lk/">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "https://harshapathmasiri.github.io/magicmeal.lk/" "https://harshapathmasiri.github.io/magicmeal.lk/">
+<html xmlns="https://harshapathmasiri.github.io/magicmeal.lk/">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" type="text/css" href="css/style_nav_footer.css" />
